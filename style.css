@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 8px;
+    width: 250px;
+    padding: 6px;
+}
+
+.note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+button {
+    margin-right: 5px;
+    cursor: pointer;
+}
