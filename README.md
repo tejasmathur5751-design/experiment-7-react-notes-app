@@ -1,17 +1,21 @@
-# Web Design Experiment 7
+# Web Design Experiment 7: React.js Study Notes Portal
 
-A single-page React.js notes application with CRUD operations (view, add, update, delete), search filtering, and localStorage persistence.
+A modern Single-Page Application (SPA) built with React.js that allows college students to organize, view, add, update, search, and delete study notes with local persistence.
 
 ## Features
-- Built with React.js using hooks (`useState`, `useEffect`) and Babel in-browser transpilation
-- Add new notes with title, category (College, Study, Personal), and description
-- Edit and update existing notes
-- Delete notes with confirmation
-- Search notes by keyword in real time
-- Persists notes in browser `localStorage`
-- Clean, responsive card UI with color-coded categories
+- **Semantic Project Layout**: Responsive top navigation bar, header banner, sidebar controls, responsive notes grid, and footer.
+- **Full CRUD State Management**:
+  - **Create**: Add notes with title, category (College, Study, Project, Personal), and description.
+  - **Read**: Live searchable notes catalog with instant category filtering and item counter.
+  - **Update**: Edit existing notes directly in the sidebar form with Cancel support.
+  - **Delete**: Remove notes with confirmation modal.
+- **Persistence**: Automatically syncs state with browser `localStorage`.
+- **React Concepts**:
+  - `useState` for component state and form fields.
+  - `useEffect` for localStorage synchronization.
+  - In-browser Babel transpilation for GitHub Pages deployment without build tooling.
 
 ## Files
-- `index.html` - HTML page with container and React 18 / Babel CDNs
-- `style.css` - clean and responsive styles for forms, badges, and note cards
-- `app.js` - React components, form handling, and state management
+- `index.html` - HTML container with React 18 & Babel CDNs
+- `style.css` - Responsive grid, category tags, and clean card styling
+- `app.js` - React components, hooks, and event handlers
